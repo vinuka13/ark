@@ -1,0 +1,128 @@
+.navbar-brand {
+    margin-left: 3%;
+}
+
+.header {
+    margin-top: 90px;
+    margin-left: 5%;
+    font-family: 'Fredoka One', cursive;
+}
+
+hr {
+    height: 10px;
+    margin-top: 5px;
+    width: 230px
+}
+
+.thanku {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5%;
+    margin-top: 20px
+}
+
+.thanku h5 {
+    margin-top: 15px;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message input {
+    margin-top: 10px;
+}
+
+.message textarea {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-bottom: 5%;
+}
+
+.row {
+    margin: 0;
+}
+
+.content {
+    font-family: 'Open Sans', sans-serif;
+    background-color:#C4C4C4 ;
+    height: 85%;
+}
+
+.content h3{
+    padding-top: 30px;
+     text-align: center;
+}
+
+.contact-icons {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-social {
+    width: 9%
+}
+
+.contact-info {
+    font-size: 20px;
+    margin-left: 9%;
+    margin-top: 8%;
+} 
+
+.contact-info a {
+    color: black
+}
+
+.contact-info a:hover {
+  color: white
+}
+
+.lbl {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+footer {
+    background-color: #F1F1F1;
+    margin-top: 10%;
+}
+
+.footer-div{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 3% 0 3% 0
+}
+
+.footer-copy {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.footer-copy h4 {
+    font-family:'Fredoka One', cursive  ;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+.social {
+    margin-top: 2%;
+    font-size: 30px;
+    width: 8%
+}
+
+@media only screen and (max-width: 990px) {
+    .content {
+        padding-bottom: 10%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .social {
+        width: 25%
+    }
+}
+

@@ -1,0 +1,352 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.fix-box {
+    font-family:'Open Sans', sans-serif ;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #DEBA9D;
+    color: black;
+    width: 220px;
+    border-radius: 5px;
+}
+
+.fix-box-content {
+    padding-top: 6px
+}
+
+.fa-arrow-right {
+   transform: translateX(180px);
+   transition: 1s all ease;
+}
+
+.fa-arrow-left {
+    transform: translateX(0);
+    transition: 1s all ease
+}
+
+.fix-box-head {
+    text-align: center;
+}
+
+.fix-box-form input {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.fix-box-form button {
+    margin-top: 4%;
+}
+
+.fix-box-form {
+    text-align: center;
+    margin:0 3% 3% 3% ;
+}
+
+.click {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.slide-in {
+    transform: translateX(150px);
+    transition: 1s all ease
+}
+
+.slide-in.active {
+    transform: translateX(-10px)
+  }
+
+.navbar-brand {
+    margin-left: 3%;
+}
+
+ul {
+    margin-right: 3%;
+}
+
+
+.title {
+    background-color: #EFDCD0;
+}
+
+.title-content {
+    padding-top: 40px;
+    margin-left: 10%;
+}
+
+.title-sub {
+    margin-left: 3%;
+}
+
+.title-sub form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.title h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 400%;
+    color: #402D22;
+    margin-bottom: 5%;
+}
+
+.title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+.title h5 {
+    margin-bottom: 5%;
+}
+
+.title button {
+    margin-right: 3%;
+    width: 134px
+}
+
+.title img {
+    margin-top: 7%;
+}
+
+.col-lg-6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    padding-top: 8%;
+}
+
+.col-lg-6 p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col-lg-6 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%
+}
+
+.aboutContent {
+    background-color: #F1F1F1;
+    margin-bottom: 0;
+    
+}
+
+.aboutContent h1 {
+    font-size: 300%;
+    margin-bottom: 5%;
+    color: #62493A;
+    font-family: 'Fredoka One', cursive;
+}
+
+.image {
+    padding-top: 150px;
+}
+
+.image img {
+    height: 60%;
+    padding-left: 30px;
+}
+
+.fade-in {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+.fade-in.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.work {
+    background-color: #62493A;
+    color: white;
+    
+} 
+
+.work h1 {
+    font-family:'Fredoka One', cursive;
+    font-size: 450%;
+    margin-bottom: 10%;
+    padding-top: 7%;
+} 
+
+.col-lg-4 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10% 0 8% 0;
+    padding-bottom: 5%;
+}
+
+.col-lg-4 h2 {
+    font-size: 300%;
+}
+
+.icon {
+    font-size: 400%;
+    margin-top: 13%;
+}
+
+.lfl {
+    background-color: #FDF5CA;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.lfl-title h1 {
+    font-family:'Fredoka One', cursive ;
+    font-size: 450%;
+    color: #3B2F27;
+}
+
+.lfl-title h3 {
+    font-family:'Open Sans', sans-serif ;
+    margin: 4% 8% 0 8%;
+    color: #3B2F27;
+}
+
+.slider {
+    margin: 0 15px 0 15px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card-body {
+    height: 50px;
+}
+
+.lfl-img {
+    margin-top: 10%;
+}
+
+
+.wos {
+    background-color:#473227 ;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.wos h1 {
+    font-family:'Fredoka One', cursive ;
+    font-size: 400%;
+    color: white;
+    margin: 0 4% 5% 4%;
+}
+
+.reviews {
+    display: flex;
+}
+
+.box {
+    background-color: white;
+    margin: 0 4% 0 4%;
+    border-radius: 25px;
+    width: 400px
+}
+
+.box p{
+    padding: 4%
+}
+
+footer {
+    background-color: #F1F1F1;
+    
+}
+
+.footer-div{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 5% 0 5% 0
+}
+
+.footer-copy {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.footer-copy h4 {
+    font-family:'Fredoka One', cursive  ;
+    font-size: 40px;
+    margin-top: 4%;
+}
+
+.social {
+    margin-top: 2%;
+    font-size: 30px;
+    width: 8%
+}
+
+@media only screen and (min-width: 990px){
+    .aboutContent {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .title-content {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .title-sub {
+        margin-left: 0;
+    }
+
+    .title button {
+        margin-right: 0;
+    }
+
+    .title-img {
+        height: 300px;
+    }
+
+    .title h5 {
+        margin: 0 5% 6% 5%;
+    }
+
+    .image {
+        padding-top: 13%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .box{
+        width: 300px
+    }
+
+    .reviews {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    .social {
+        width: 25%
+    }
+
+    .footer-div {
+        padding: 5% 0 25% 0
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .footer-div {
+        padding-bottom: 35%;
+    }
+}
